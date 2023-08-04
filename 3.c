@@ -19,10 +19,17 @@ int main(){
     folha.taxaINSS = 8;
     folha.salarioLiquido = folha.salarioBruto * (100 - folha.taxaINSS) / 100;
 
-
+    // a) Nome do Funcionário
     printf("Nome: %s", folha.nome);
+
+    // b) Salário bruto
     printf("\nSalario Bruto: R$ %.2lf", folha.salarioBruto);
+
+    // c) Valor do INSS
     printf("\nTaxa INSS: %d%%", folha.taxaINSS);
+
+    // d) Salário líquido.
     printf("\nSalario Liquido: R$ %.2lf", folha.salarioLiquido);
+    
     return 0;
 }
