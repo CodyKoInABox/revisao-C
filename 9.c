@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 9) Escrever um programa que calcule o número fatorial de um número
+// 9) Escrever um programa que calcule o número fatorial de um número 
 
 int fatorial(int numero){
     if(numero <= 1){
